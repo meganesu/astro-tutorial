@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
 
 const pageTitle = "About Megan";
 
@@ -41,11 +42,7 @@ const textCase = "uppercase"
     </style>
 	</head>
 	<body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about/">About</a>
-      <a href="/blog/">Blog</a>
-    </nav>
+    <Navigation />
 		<h1>{pageTitle}</h1>
     <p>I like making things!</p>
     <p>Here are a few facts about me:</p>
